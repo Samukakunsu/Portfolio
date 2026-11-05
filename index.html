@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samuel Costa Souza · dev</title>
+<meta name="description" content="Samuel Costa Souza, estudante de Engenharia da Computação em Maceió/AL. Web, embarcados, redes e IA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="bar">
+  <a class="brand" href="#topo"><span class="prompt">~/</span>samuel</a>
+  <nav>
+    <a href="#sobre">sobre.js</a>
+    <a href="#experiencia">experiencia.log</a>
+    <a href="#projetos">projetos/</a>
+    <a href="#stack">stack.json</a>
+    <a href="#formacao">formacao.yml</a>
+    <a class="cta" href="#contato">contato.sh</a>
+  </nav>
+</header>
+
+<main id="topo">
+
+  <section class="hero">
+    <div class="term win">
+      <div class="win-top"><i></i><i></i><i></i><span>samuel@maceio: ~</span></div>
+      <div class="term-body" id="term" aria-live="polite">
+        <p><span class="prompt">$</span> <span class="cmd">whoami</span></p>
+        <p class="out big">Samuel Costa Souza</p>
+        <p><span class="prompt">$</span> <span class="cmd">cat cargo.txt</span></p>
+        <p class="out">Estudante de Engenharia da Computação · 8º período<br>Estagiário em TI na Seune</p>
+        <p><span class="prompt">$</span> <span class="cmd">echo $FOCO</span></p>
+        <p class="out"><span class="k">web</span> · <span class="k">sistemas embarcados</span> · <span class="k">redes</span> · <span class="k">inteligência artificial</span></p>
+        <p><span class="prompt">$</span> <span class="cmd">status</span></p>
+        <p class="out"><span class="ok">●</span> aberto a oportunidades na área de desenvolvimento web<span class="cursor"></span></p>
+      </div>
+    </div>
+
+    <figure class="avatar win">
+      <div class="win-top"><i></i><i></i><i></i><span>avatar.jpg</span></div>
+      <img src="foto.jpg" alt="Foto de Samuel Costa Souza" width="900" height="1125">
+    </figure>
+  </section>
+
+  <section id="sobre" class="block">
+    <h2><span class="n">01</span> sobre<span class="ext">.js</span></h2>
+    <pre class="code"><code><span class="kw">const</span> <span class="var">samuel</span> = {
+  <span class="key">nome</span>: <span class="str">"Samuel Costa Souza"</span>,
+  <span class="key">curso</span>: <span class="str">"Engenharia da Computação"</span>,
+  <span class="key">instituicao</span>: <span class="str">"Centro Universitário Mário Pontes Jucá"</span>,
+  <span class="key">periodo</span>: <span class="num">8</span>,
+  <span class="key">cidade</span>: <span class="str">"Maceió, AL"</span>,
+  <span class="key">idiomas</span>: [<span class="str">"português"</span>, <span class="str">"inglês (básico)"</span>, <span class="str">"francês (básico)"</span>],
+  <span class="key">procurando</span>: <span class="str">"estágio em programação, embarcados, redes e IA"</span>,
+  <span class="key">aprendeRapido</span>: <span class="bool">true</span>,
+  <span class="key">gostaDeDesafios</span>: <span class="bool">true</span>
+};</code></pre>
+    <p class="note">Tenho forte interesse por tecnologia e inovação. Quero aplicar o que aprendo na faculdade em projetos reais, melhorar minhas habilidades técnicas e contribuir com o crescimento da equipe.</p>
+  </section>
+
+  <section id="experiencia" class="block">
+    <h2><span class="n">02</span> experiencia<span class="ext">.log</span></h2>
+    <div class="log">
+      <article>
+        <div class="dot"></div>
+        <div class="meta"><span class="date">nov/2025 → atualmente</span><span class="branch">main</span></div>
+        <h3>Estagiário em TI <small>@ Seune · Maceió/AL</small></h3>
+        <p>Gerencio o site da faculdade pelo WordPress, atualizando páginas e criando novas, com integração a banco de dados e uso de API. Faço o design de banners e outras artes gráficas e ajudo no suporte de TI aos usuários.</p>
+        <div class="tags"><span>WordPress</span><span>API</span><span>Banco de dados</span><span>Design gráfico</span><span>Suporte</span></div>
+      </article>
+      <article>
+        <div class="dot"></div>
+        <div class="meta"><span class="date">ago/2025 → set/2025</span><span class="branch">merged</span></div>
+        <h3>Analista Desenvolvedor Júnior <small>@ OFM Systems · Maceió/AL</small></h3>
+        <p>Participei do desenvolvimento de interfaces web responsivas usando HTML, CSS, TypeScript e React.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>TypeScript</span><span>React</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="projetos" class="block">
+    <h2><span class="n">03</span> projetos<span class="ext">/</span></h2>
+    <div class="projects">
+      <article class="project win">
+        <div class="win-top"><i></i><i></i><i></i><span>seune-site/</span></div>
+        <img src="projeto-1.jpg" alt="Captura de tela do site da faculdade Seune" width="1200" height="750">
+        <div class="p-body">
+          <h3>Site de gerenciamento de boletos</h3>
+          <p>Gestão de boletos da faculdade em PHP, CSS e JavaScript: integração com banco de dados e uso de API, além de deixar responsivo para outras telas.</p>
+          <div class="tags"><span>WordPress</span><span>API</span><span>Banco de dados</span></div>
+        </div>
+      </article>
+      <article class="project win">
+        <div class="win-top"><i></i><i></i><i></i><span>interfaces-responsivas/</span></div>
+        <img src="projeto-2.jpg" alt="Captura de tela de interface web responsiva" width="1200" height="750">
+        <div class="p-body">
+          <h3>Quiz interativo</h3>
+          <p>Desenvolvimento de quiz para enfermagem com foco em uma experiência consistente em computador e celular, usando HTML, CSS e JavaScript.</p>
+          <div class="tags"><span>React</span><span>TypeScript</span><span>CSS</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="stack" class="block">
+    <h2><span class="n">04</span> stack<span class="ext">.json</span></h2>
+    <pre class="code"><code>{
+  <span class="key">"linguagens"</span>: [<span class="str">"C"</span>, <span class="str">"JavaScript"</span>, <span class="str">"TypeScript"</span>, <span class="str">"PHP"</span>],
+  <span class="key">"web"</span>: [<span class="str">"HTML"</span>, <span class="str">"CSS"</span>, <span class="str">"React"</span>, <span class="str">"WordPress"</span>],
+  <span class="key">"backend"</span>: [<span class="str">"criação de APIs"</span>],
+  <span class="key">"dados"</span>: [<span class="str">"PostgreSQL"</span>, <span class="str">"Power BI"</span>, <span class="str">"análise de dados"</span>],
+  <span class="key">"infra"</span>: [<span class="str">"fundamentos de redes"</span>, <span class="str">"sistemas embarcados"</span>],
+  <span class="key">"automacao"</span>: [<span class="str">"serviços e tarefas"</span>],
+  <span class="key">"ferramentas"</span>: [<span class="str">"pacote Office"</span>, <span class="str">"design de banners"</span>]
+}</code></pre>
+  </section>
+
+  <section id="formacao" class="block">
+    <h2><span class="n">05</span> formacao<span class="ext">.yml</span></h2>
+    <pre class="code"><code><span class="key">graduacao</span>:
+  <span class="key">curso</span>: <span class="str">Bacharelado em Engenharia da Computação</span>
+  <span class="key">instituicao</span>: <span class="str">Centro Universitário Mário Pontes Jucá (UMJ)</span>
+  <span class="key">periodo</span>: <span class="num">2023 → presente</span>
+  <span class="key">local</span>: <span class="str">Maceió/AL</span>
+
+<span class="key">cursos</span>:
+  - <span class="key">nome</span>: <span class="str">Criação de sites com JavaScript, HTML e CSS</span>
+    <span class="key">por</span>: <span class="str">Fundação Bradesco</span>
+  - <span class="key">nome</span>: <span class="str">HTML e CSS</span>
+    <span class="key">por</span>: <span class="str">OxeTech</span>
+  - <span class="key">nome</span>: <span class="str">Fundamentos de Redes</span>
+    <span class="key">por</span>: <span class="str">OxeTech</span>
+  - <span class="key">nome</span>: <span class="str">Análise de Dados</span>
+    <span class="key">por</span>: <span class="str">Edune Cursos</span></code></pre>
+  </section>
+
+  <section id="contato" class="block contact">
+    <h2><span class="n">06</span> contato<span class="ext">.sh</span></h2>
+    <p class="big">Aberto a oportunidades em desenvolvimento web, embarcados, redes e IA.</p>
+    <div class="mailrow">
+      <span class="prompt">$</span>
+      <a class="mail" href="mailto:samuelcsouzas3@gmail.com">samuelcsouzas3@gmail.com</a>
+      <button id="copiar" type="button">copiar</button>
+    </div>
+    <p class="small">Maceió, Alagoas</p>
+  </section>
+
+</main>
+
+<footer>
+  <span>© <span id="ano">2026</span> Samuel Costa Souza</span>
+  <span>feito à mão com HTML, CSS e JS</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
